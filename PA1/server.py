@@ -4,7 +4,7 @@ Computer Networks Spring 2020
 """
 from socket import *
 BUFF_SIZE = 1024                                                                                                                                                                                                
-serverPort = 8888
+serverPort = 8080
 serverAddr = ''  # localhost
 serverSocket = socket(AF_INET, SOCK_STREAM)
 
